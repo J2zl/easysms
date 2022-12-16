@@ -1,11 +1,11 @@
 {
-    "name": "yuxiaobo/gzdata_sms_sdk",
-    "description": "云上贵州短信SDK",
+    "name": "J2zl/EasySms",
+    "description": "聚美-云上贵州短信",
     "license": "mit",
     "authors": [
         {
-            "name": "edk24",
-            "email": "yuxiaobo64@gmail.com"
+            "name": "J2zl",
+            "email": "1164373744@qq.com"
         }
     ],
     "require": {
