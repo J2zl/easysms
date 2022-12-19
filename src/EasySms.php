@@ -6,7 +6,7 @@ use Rzl\EasySms\Gateways\GzDataGateWay;
 use Rzl\EasySms\Gateways\JuMeiGateWay;
 use Rzl\EasySms\Support\Config;
 
-class EasySms
+class Sms
 {
     protected $config;
 
