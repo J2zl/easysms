@@ -5,7 +5,7 @@
 **安装**
 
 ```
-composer require J2zl/easysms
+composer require j2zl/easy-sms
 ```
 
 ## 发布配置文件
