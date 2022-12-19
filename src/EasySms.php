@@ -1,6 +1,6 @@
 <?php
 
-namespace easysms;
+namespace EasySms;
 
 use EasySms\Gateways\GzDataGateWay;
 use EasySms\Gateways\JuMeiGateWay;
