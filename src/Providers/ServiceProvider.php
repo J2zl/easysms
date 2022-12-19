@@ -1,5 +1,5 @@
 <?php
-namespace EasySms\Providers;
+namespace Rzl\EasySms\Providers;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;

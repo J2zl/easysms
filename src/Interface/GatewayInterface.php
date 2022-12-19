@@ -1,6 +1,6 @@
 <?php
 
-namespace EasySms\Interface;
+namespace Rzl\EasySms\Interface;
 
 interface GatewayInterface
 {

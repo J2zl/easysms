@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace EasySms\Support;
+namespace Rzl\EasySms\Support;
 
 use ArrayAccess;
 

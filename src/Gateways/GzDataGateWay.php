@@ -1,8 +1,8 @@
 <?php
 
-namespace EasySms\Gateways;
+namespace Rzl\EasySms\Gateways;
 
-use EasySms\Interface\GatewayInterface;
+use Rzl\EasySms\Interface\GatewayInterface;
 
 class GzDataGateWay implements GatewayInterface
 {

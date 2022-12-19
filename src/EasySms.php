@@ -1,10 +1,10 @@
 <?php
 
-namespace EasySms;
+namespace Rzl\EasySms;
 
-use EasySms\Gateways\GzDataGateWay;
-use EasySms\Gateways\JuMeiGateWay;
-use EasySms\Support\Config;
+use Rzl\EasySms\Gateways\GzDataGateWay;
+use Rzl\EasySms\Gateways\JuMeiGateWay;
+use Rzl\EasySms\Support\Config;
 
 class EasySms
 {
