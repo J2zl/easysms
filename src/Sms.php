@@ -12,11 +12,12 @@ class Sms
 
     protected $sms;
 
-    public function __construct($config) {
+    public function __construct($config)
+    {
         $this->config = new Config($config);
 
         $default = $this->config->get('default');
-        $smsConfig = $this->config->get('gateways.'.$default);
+        $smsConfig = $this->config->get('gateways.' . $default);
         switch ($default) {
             case 'jumei':
                 $this->sms = new JuMeiGateWay($smsConfig);
@@ -27,11 +28,23 @@ class Sms
         }
     }
 
-    public function send(string $mobile, string $template_id, array $tag=[]) {
-        return $this->sms->send(string $mobile, string $template_id, array $tag=[]);
+    public function send(string $mobile, string $template_id, array $tag = [])
+    {
+        return $this->sms->send($mobile, $template_id, $tag);
     }
 
-    public function sendRawContent(string $mobile, string $content) {
-        return $this->sms->send(string $mobile, string $content);
+    public function sendRawContent(string $mobile, string $content)
+    {
+        return $this->sms->sendRawContent($mobile, $content);
+    }
+
+    public function getConfig()
+    {
+        return $this->config;
+    }
+
+    public function getSms()
+    {
+        return $this->sms;
     }
 }

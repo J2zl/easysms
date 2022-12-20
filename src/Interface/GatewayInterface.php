@@ -13,7 +13,7 @@ interface GatewayInterface
      * @return array [bool:success, array:responseArray]
      * @throws \GuzzleHttp\Exception\*
      */
-    public function send(string $mobile, string $template_id, array $tag=[]) : array 
+    public function send(string $mobile, string $template_id, array $tag = []);
 
     /**
      * 发送原始文本短信
@@ -23,6 +23,5 @@ interface GatewayInterface
      * @return array [bool:success, array:responseArr]
      * @throws \GuzzleHttp\Exception\*
      */
-    public function sendRawContent(string $mobile, string $content) : array 
-
+    public function sendRawContent(string $mobile, string $content);
 }
